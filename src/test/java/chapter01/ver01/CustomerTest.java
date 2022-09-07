@@ -16,4 +16,24 @@ public class CustomerTest {
 		String result = customer.statement();
 		System.out.println(result);
 	}
+
+	@org.junit.jupiter.api.BeforeEach
+	void setUp() {
+	}
+
+	@org.junit.jupiter.api.AfterEach
+	void tearDown() {
+	}
+
+	@org.junit.jupiter.api.Test
+	void addRental() {
+	}
+
+	@org.junit.jupiter.api.Test
+	void getName() {
+	}
+
+	@org.junit.jupiter.api.Test
+	void testStatement() {
+	}
 }
